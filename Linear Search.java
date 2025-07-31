@@ -5,7 +5,7 @@ class Linear {
         int array[], i, size, f = 0;
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Enter the size of array");
+        System.out.print("Enter the size of array: ");
         size = sc.nextInt();
         array = new int[size];
 
@@ -16,7 +16,7 @@ class Linear {
 
         System.out.println("Elements of array:");
         for (i = 0; i < size; i++) {
-            System.out.print(array[i] + " ");
+            System.out.print(array[i] + ", ");
         }
 
         System.out.println("\nEnter the key to search in an array:");
